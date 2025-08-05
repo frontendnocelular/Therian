@@ -26,26 +26,21 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-blue-200 mb-4">Categorias</h4>
+            <h4 className="text-lg font-semibold text-blue-200 mb-4">Coleção Exclusiva</h4>
             <ul className="space-y-2">
               <li>
                 <Link to="/catalogo?categoria=felinos" className="text-blue-100 hover:text-white transition-colors duration-200">
-                  Felinos
-                </Link>
-              </li>
-              <li>
-                <Link to="/catalogo?categoria=caninos" className="text-blue-100 hover:text-white transition-colors duration-200">
-                  Caninos
+                  Fantasia de Leão Premium
                 </Link>
               </li>
               <li>
                 <Link to="/catalogo?categoria=ursos" className="text-blue-100 hover:text-white transition-colors duration-200">
-                  Ursos
+                  Fantasia de Urso Polar
                 </Link>
               </li>
               <li>
-                <Link to="/catalogo?categoria=roedores" className="text-blue-100 hover:text-white transition-colors duration-200">
-                  Roedores
+                <Link to="/catalogo" className="text-blue-100 hover:text-white transition-colors duration-200">
+                  Ver Todas (2 produtos)
                 </Link>
               </li>
             </ul>
@@ -82,11 +77,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-blue-200" />
-                <span className="text-blue-100">contato@therian.com.br</span>
+                <a href="mailto:therianexemploloja@gmail.com" className="text-blue-100 hover:text-white transition-colors duration-200">
+                  therianexemploloja@gmail.com
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-blue-200" />
-                <span className="text-blue-100">(11) 9999-9999</span>
+                <a href="tel:+6311379101693" className="text-blue-100 hover:text-white transition-colors duration-200">
+                  +63 (11) 3791-016932
+                </a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-blue-200 mt-1" />
